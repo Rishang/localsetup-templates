@@ -42,6 +42,18 @@ packages:
     - htop
     - masscan
     - fzf
+    - vlc
+    - bleachbit
+    - gparted
+    - libreoffice
+    - dosbox
+    - dos2unix
+    - binwalk
+    - pulseaudio
+    - pulseaudio-module-bluetooth
+    - pulseaudio-module-gsettings
+    - net-tools
+    - jupyter-notebook
     - httpie  # cool curl
     - bpytop  # cool htop
     - exa     # colorful ls
@@ -56,13 +68,14 @@ snap:
     - slack
     - discord
     - postman
+    - standard-notes
     - telegram-desktop
 
 pip:
   install:
     local:
       - django
-      - fastapi[standard]
+      - fastapi[all]
       - pandas
       - bs4
       - scapy
