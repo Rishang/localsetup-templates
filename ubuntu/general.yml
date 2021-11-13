@@ -11,7 +11,7 @@ repos:
       key: "https://packages.microsoft.com/keys/microsoft.asc"
       repo: "deb [arch=amd64] http://packages.microsoft.com/repos/code stable main"
 
- - name: Docker
+  - name: Docker
     apt:
       key: https://download.docker.com/linux/ubuntu/gpg
       repo: "deb [arch=amd64] https://download.docker.com/linux/ubuntu {{distro}} stable"
