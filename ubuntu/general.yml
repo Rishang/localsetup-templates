@@ -58,6 +58,7 @@ packages:
     - pulseaudio-module-gsettings
     - net-tools
     - jupyter-notebook
+    - peek    # gif screen recorder
     - httpie  # cool curl
     - bpytop  # cool htop
     - exa     # colorful ls
