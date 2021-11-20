@@ -94,3 +94,8 @@ pip:
       - black     # python beautifier
       # cli tools
       - tldr   # easy man pages cli tool
+
+npm:
+  install:
+    global:
+      - serve
