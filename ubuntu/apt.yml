@@ -39,6 +39,7 @@ repos:
 packages:
   apt:
     - wget
+    - bat
     - gron
     - python3
     - golang
