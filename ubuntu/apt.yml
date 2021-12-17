@@ -67,3 +67,6 @@ packages:
     - cargo   # Rust's package manager
     - fastboot
     - adb
+    - jq
+    - remmina
+    - ffmpegthumbnailer
