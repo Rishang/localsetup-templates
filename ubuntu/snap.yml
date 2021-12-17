@@ -1,0 +1,10 @@
+snap:
+  install:
+    normal:
+      - amass
+      - discord
+      - postman
+      - standard-notes
+      - telegram-desktop
+    classic:
+      - slack

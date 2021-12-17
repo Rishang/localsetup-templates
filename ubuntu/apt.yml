@@ -36,7 +36,6 @@ repos:
       packages:
         - terraform
 
-
 packages:
   apt:
     - wget
@@ -66,38 +65,3 @@ packages:
     - fd-find # easy find tool
     - ripgrep # Rust base grep
     - cargo   # Rust's package manager
-
-snap:
-  packages:
-    - amass
-    - slack
-    - discord
-    - postman
-    - standard-notes
-    - telegram-desktop
-
-pip:
-  install:
-    local:
-      - django
-      - fastapi[all]
-      - pandas
-      - bs4
-      - scapy
-      - typer
-      - typer-cli
-      - click
-      - pymongo
-      - loguru
-      - aiohttp
-      - sqlmodel
-      - selenium
-      - pipreqs
-      - black     # python beautifier
-      # cli tools
-      - tldr   # easy man pages cli tool
-      - poetry 
-npm:
-  install:
-    global:
-      - serve
