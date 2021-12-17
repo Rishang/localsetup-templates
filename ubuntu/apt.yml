@@ -6,7 +6,7 @@ repos:
       packages:
         - sublime-text
 
-  - name: VS code
+  - name: vscode
     apt:
       key: "https://packages.microsoft.com/keys/microsoft.asc"
       repo: "deb [arch=amd64] http://packages.microsoft.com/repos/code stable main"
@@ -65,3 +65,5 @@ packages:
     - fd-find # easy find tool
     - ripgrep # Rust base grep
     - cargo   # Rust's package manager
+    - fastboot
+    - adb
