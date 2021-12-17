@@ -70,3 +70,4 @@ packages:
     - jq
     - remmina
     - ffmpegthumbnailer
+    - youtube-dl
