@@ -18,4 +18,6 @@ pip:
       - black     # python beautifier
       # cli tools
       - tldr   # easy man pages cli tool
-      - poetry 
+      - poetry
+      - exrex
+      - types-all
