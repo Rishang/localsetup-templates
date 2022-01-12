@@ -21,3 +21,4 @@ pip:
       - poetry
       - exrex
       - types-all
+      - pyautogui
